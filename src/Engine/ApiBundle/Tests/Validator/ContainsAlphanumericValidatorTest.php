@@ -23,6 +23,9 @@ class ContainsAlphanumericValidatorTest extends \PHPUnit\Framework\TestCase
     /** @var ConstraintViolationBuilderInterface */
     private $constraintViolationBuilder;
 
+    /** @var ExecutionContextInterface */
+    private $context;
+
     protected function setUp()
     {
         $this->context = m::mock(ExecutionContextInterface::class);

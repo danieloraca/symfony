@@ -13,7 +13,7 @@ class ContainsAlphanumericValidator extends ConstraintValidator
     public function validate($value, Constraint $constraint)
     {
         if (!$constraint instanceof ContainsAlphanumeric) {
-            throw new ValidatorException(spintf('Wrong class %s', ContainsAlphanumeric::class));
+            throw new ValidatorException(sprintf('Wrong class %s', ContainsAlphanumeric::class));
         }
 
         if (null === $value || '' === $value) {
