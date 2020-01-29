@@ -6,7 +6,9 @@
 
 # run symfony
 `$ symfony server:start`
-
+or
+`php bin/console server:start`
+`php bin/console server:run`
 
 # API urls:
 
@@ -29,3 +31,6 @@
 `./vendor/bin/phpunit --bootstrap vendor/autoload.php src/Engine/ApiBundle/Tests/`
 or
 `make unit`
+
+# clear cache
+`php bin/console`
