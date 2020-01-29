@@ -1,3 +1,4 @@
+
 #download & install symfony 
 `$ curl -sS https://get.symfony.com/cli/installer | bash`
 
