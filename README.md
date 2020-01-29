@@ -33,6 +33,9 @@ or
 or
 `make unit`
 
+### Test code with phpstan
+`make standards`
+
 ### clear cache
 `php bin/console c:c`
 
