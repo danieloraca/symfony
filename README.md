@@ -33,5 +33,8 @@ or
 or
 `make unit`
 
-## clear cache
+### clear cache
 `php bin/console c:c`
+
+#### Files
+    Bundle files are located inside src/Engine/ApiBundle directory
