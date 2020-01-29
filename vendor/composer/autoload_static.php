@@ -92,6 +92,7 @@ class ComposerStaticInitfdf4daf5e49d52fa0f33e57aac8737b4
             'Symfony\\Bridge\\PhpUnit\\' => 23,
             'Symfony\\Bridge\\Monolog\\' => 23,
             'Symfony\\Bridge\\Doctrine\\' => 24,
+            'SlevomatCodingStandard\\' => 23,
             'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
         ),
         'P' => 
@@ -372,6 +373,10 @@ class ComposerStaticInitfdf4daf5e49d52fa0f33e57aac8737b4
         'Symfony\\Bridge\\Doctrine\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/doctrine-bridge',
+        ),
+        'SlevomatCodingStandard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/slevomat/coding-standard/SlevomatCodingStandard',
         ),
         'Sensio\\Bundle\\FrameworkExtraBundle\\' => 
         array (

@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace App\Engine\ApiBundle\Tests\Service;
 
 use App\Engine\ApiBundle\Service\ApiProcessor;
-use \Mockery\Adapter\Phpunit\MockeryTestCase;
+use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 class ApiProcessorTest extends MockeryTestCase
 {
@@ -46,7 +46,8 @@ class ApiProcessorTest extends MockeryTestCase
     public function testGetBooksByAuthorAndCategory(): void
     {
         $result = $this->service->getBooksByAuthorAndCategory(
-            'authorName', 'categoryName'
+            'authorName',
+            'categoryName'
         );
         
         $this->assertIsArray($result);

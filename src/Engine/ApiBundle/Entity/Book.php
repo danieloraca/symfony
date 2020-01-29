@@ -8,8 +8,8 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 class Book
 {
-    /** 
-     * @var string 
+    /**
+     * @var string
      * @Assert\NotBlank
      * @FormAssert\ContainsAlphanumeric
      */

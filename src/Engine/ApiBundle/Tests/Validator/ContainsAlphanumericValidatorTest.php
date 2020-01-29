@@ -3,8 +3,8 @@ declare (strict_types=1);
 
 namespace App\Engine\ApiBundle\Tests\Validator;
 
-use App\Engine\ApiBundle\Validator\Constraints\ContainsAlphanumericValidator;
 use App\Engine\ApiBundle\Validator\Constraints\ContainsAlphanumeric;
+use App\Engine\ApiBundle\Validator\Constraints\ContainsAlphanumericValidator;
 use Mockery as m;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 use Symfony\Component\Validator\Exception\ValidatorException;
