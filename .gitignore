@@ -5,3 +5,4 @@
 ###< squizlabs/php_codesniffer ###
 
 var/cache/dev/*
+var/log/*
